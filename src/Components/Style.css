@@ -1,0 +1,140 @@
+/* .Left_side{
+    position: absolute;
+    background-color: aqua;
+    width: 20%;
+    bottom: 0px;
+    top: 10px;
+    right: 100px;
+    left: 0px;
+} */
+/* .SliderBar {
+    opacity: 0.6;
+   
+} */
+
+.Header {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 90px;
+    background-color: #000000;
+}
+
+.Header>p {
+    color: #f6efef;
+}
+
+
+.Active_Nav {
+    color: #00ff80 !important;
+}
+
+.Slider {
+    z-index: 10;
+    position: absolute;
+    background-color: #ffffff;
+    width: 16%;
+    bottom: 0px;
+    top: 0px;
+    right: 100px;
+    left: 0px;
+    box-shadow: 0px 0px 15px #d7d5d5;
+}
+
+.TextSlider {
+    margin-top: 40px;
+    text-align: left;
+    list-style-type: none !important;
+    padding-inline-start: 10px !important;
+}
+
+.TextSlider li {
+    cursor: pointer;
+    list-style-type: none;
+    margin-top: 10px;
+    font-size: 20px;   
+}
+
+
+.TextSlider li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.TextSlider a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.SliderName {
+    display: table-cell;
+    text-align: center;
+}
+
+
+.SliderArrowClose {
+    color: #f6efef !important;
+    font-size: 25px !important;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    width: 100%;
+    background-color: #fa3757;
+}
+
+.Slider.activeSlider {
+    left: -100%;
+    z-index: -5;
+
+}
+
+.SliderArrowOpen {
+    color: #ffffff !important;
+    font-size: 25px !important;
+    position: absolute;
+    background-color: #fa3757;
+    float: right;
+    left: 0px;
+    top: 0px;
+    width: 48px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 10;
+}
+
+.SliderArrowstop {
+    display: none;
+}
+
+/* .Left_side >p{
+    text-align: justify;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight:600;
+} */
+.Right_side {
+    position: absolute;
+    /* color: rgb(255, 255, 255); */
+    top: 90px;
+    bottom: 0;
+    right: 0;
+    left: 0px;
+    background-color: #ffffff;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.Right_side tr td {
+    color: #000000;
+}
+
+.Right_side tr th {
+    color: #ffffff;
+}
+
+table {
+    margin-left: 1px;
+    margin-right: 1px;
+    /* border-left: #00ff80 1px dotted;
+    border-right: #00ff80 1px dotted; */
+}
